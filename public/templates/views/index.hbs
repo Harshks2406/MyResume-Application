@@ -1,0 +1,29 @@
+{{>head}}
+{{>nav}}
+<div class="container">
+    <div class="login">
+        <div class="form">
+            <form>
+                <div class="form-group">
+                    <label for="Full Name">Full Name</label><br>
+                    <small id="msg1"></small>
+                    <input type="text" class="form-control" id="fullName" name="fullName"  placeholder="Enter Full Name">
+                </div>
+                <div class="form-group">
+                    <label for="Email Address">Email address</label><br>
+                    <small id="msg2"></small>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label><br>
+                    <small id="msg3"></small>
+                    <input type="password" class="form-control" id="password" placeholder="Password">
+                </div>
+                <button class="btn btn-primary" id="submitBtn">Submit</button>
+             </form>
+        </div>
+    </div>
+</div>
+{{>footer}}
+    

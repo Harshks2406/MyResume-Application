@@ -1,0 +1,12 @@
+.login{
+    margin-top: 3rem;
+}
+.form{
+    font-size: .8rem;
+    width: 30rem;
+    margin: auto;
+    /* border: 1.5px solid rgb(194, 224, 250); */
+    background-color: aliceblue;
+    border-radius: 2em;
+    padding: 3rem;
+}
